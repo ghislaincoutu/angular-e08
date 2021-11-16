@@ -1,0 +1,35 @@
+<div class="container mt-4">
+  <h1>Angular 13</h1>
+  <h2>Programmation d'un filtre de recherche personnalisé avec le module ng2-search-filter</h2>
+  <div class="note01">
+    <p>Paquets NPM à installer :</p>
+    <pre>npm install bootstrap</pre>
+    <pre>npm install ng2-search-filter</pre>
+  </div>
+  <div class="row mb-3">
+    <div class="col-md-4">
+      <label for="search" class="form-label">Rechercher</label>
+      <input type="text" id="search" class="form-control" placeholder="Chaîne de caractères" [(ngModel)]="filterTerm">
+    </div>
+  </div>
+  <div class="table-responsive-lg">
+    <table class="table">
+      <thead class="table-dark">
+        <tr>
+          <th scope="col">ID</th>
+          <th scope="col">Nom</th>
+          <th scope="col">Prénom</th>
+          <th scope="col">Courriel</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let user of userRecords | filter:filterTerm">
+          <td>{{user.id}}</td>
+          <td>{{user.name}}</td>
+          <td>{{user.username}}</td>
+          <td>{{user.email}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
