@@ -1,5 +1,8 @@
 # angular-e08 &mdash; Programmation d'un filtre de recherche personnalisé avec le module ng2-search-filter
 
+## Démonstration
+https://ghislaincoutu.ca/r002/angular-e08
+
 ## Paquets NPM à installer
 - npm install bootstrap
 - npm install ng2-search-filter
