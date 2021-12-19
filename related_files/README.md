@@ -7,7 +7,7 @@ https://ghislaincoutu.ca/r002/angular-e08
 - npm install bootstrap
 - npm install ng2-search-filter
 
-## Commandes Angular pour générer les composants de l'exercice
+## Commandes Angular à exécuter pour générer les composants de l'exercice
 - ng generate component menu
 - ng generate component t01
 - ng generate component t02
