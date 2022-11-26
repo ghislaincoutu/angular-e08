@@ -1,5 +1,5 @@
 <div class="container mt-4">
-  <h1>Angular 13</h1>
+  <h1>Angular 15</h1>
   <h2 style="margin-bottom:30px">Utilisation d'observables pour transmettre des valeurs</h2>
   <div class="row">
     <div class="col-md-6">
