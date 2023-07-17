@@ -14,7 +14,7 @@ export class T02Component implements OnInit {
 
   // Définition de l'observable 1
   courseTitle01_observable = new Observable((observer) => {
-    observer.next("Titre du cours 01");
+    observer.next("Ville de Montréal");
     setTimeout(() => { observer.next("Québec (2 secondes)") }, 2000);
     setTimeout(() => { observer.next("Montréal (4 secondes)") }, 4000);
     setTimeout(() => { observer.next("Laval (6 secondes)") }, 6000);
