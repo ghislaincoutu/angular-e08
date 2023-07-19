@@ -1,6 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
-//@import "~bootstrap/dist/css/bootstrap.css";
 
+body {
+  margin-bottom: 20px;
+}
+.t01 {
+  .form-group label {
+    margin-bottom: 6px;
+  }
+  .list-group {
+    margin: 8px 0 12px 0;
+  }
+  .highlight08 {
+    background-color: #fdd;
+  }
+}
 .note01 {
   margin: 20px 0;
   padding: 10px;
