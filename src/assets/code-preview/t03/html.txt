@@ -10,10 +10,10 @@
     </div>
 
     <div class="col-md-6 code-preview">
-      <h3>t02.component.html</h3>
-      <iframe src="assets/code-preview/t02/html.txt"></iframe>
-      <h3>t02.component.ts</h3>
-      <iframe src="assets/code-preview/t02/typescript.txt"></iframe>
+      <h3>t03.component.html</h3>
+      <iframe src="assets/code-preview/t03/html.txt"></iframe>
+      <h3>t03.component.ts</h3>
+      <iframe src="assets/code-preview/t03/typescript.txt"></iframe>
     </div>
   </div>
 </div>

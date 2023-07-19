@@ -1,34 +1,36 @@
 <div class="container mt-4">
   <h1>Angular 16</h1>
   <h2>Programmation d’un filtre de recherche T02</h2>
-  <div class="note01">
-    <p>Paquets NPM à installer :</p>
-    <pre>npm install bootstrap</pre>
-  </div>
-  <div class="row mb-3">
-    <div class="col-md-4">
+  <div class="row">
+    <div class="col-md-7">
       <label for="search" class="form-label">Rechercher</label>
       <input type="text" id="search" class="form-control" placeholder="Chaîne de caractères">
+      <div class="table-responsive-lg mt-3">
+        <table class="table">
+          <thead class="table-dark">
+            <tr>
+              <th scope="col">ID</th>
+              <th scope="col">Nom</th>
+              <th scope="col">Prénom</th>
+              <th scope="col">Courriel</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let x of userRecords">
+              <td>{{x.id}}</td>
+              <td>{{x.name}}</td>
+              <td>{{x.username}}</td>
+              <td>{{x.email}}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
-  </div>
-  <div class="table-responsive-lg">
-    <table class="table">
-      <thead class="table-dark">
-        <tr>
-          <th scope="col">ID</th>
-          <th scope="col">Nom</th>
-          <th scope="col">Prénom</th>
-          <th scope="col">Courriel</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr *ngFor="let user of userRecords">
-          <td>{{user.id}}</td>
-          <td>{{user.name}}</td>
-          <td>{{user.username}}</td>
-          <td>{{user.email}}</td>
-        </tr>
-      </tbody>
-    </table>
+    <div class="col-md-5 code-preview">
+      <h3>t02.component.html</h3>
+      <iframe src="assets/code-preview/t02/html.txt"></iframe>
+      <h3>t02.component.ts</h3>
+      <iframe src="assets/code-preview/t02/typescript.txt"></iframe>
+    </div>
   </div>
 </div>
