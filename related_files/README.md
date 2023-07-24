@@ -15,8 +15,11 @@ ng generate component menu
 ng generate component t01
 ng generate component t02
 ng generate component t03
+ng generate component t04
 
 ng generate pipe transform01
+ng generate pipe transform02
+ng generate pipe transform03
 ng generate directive highlight01
 ```
 

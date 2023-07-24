@@ -10,11 +10,18 @@ so=/home/Exercises/angular-e08/src/app
 # Destination (de)
 de=/home/Exercises/angular-e08/src/assets/code-preview/
 
+cp $so/transform01.pipe.ts $de/transform01/
+mv $de/transform01/transform01.pipe.ts $de/transform01/typescript.txt
+
+cp $so/transform02.pipe.ts $de/transform02/
+mv $de/transform02/transform02.pipe.ts $de/transform02/typescript.txt
+
+cp $so/transform03.pipe.ts $de/transform03/
+mv $de/transform03/transform03.pipe.ts $de/transform03/typescript.txt
+
 cp $so/highlight01.directive.ts $de/highlight01/
 mv $de/highlight01/highlight01.directive.ts $de/highlight01/typescript.txt
 
-cp $so/transform01.pipe.ts $de/transform01/
-mv $de/transform01/transform01.pipe.ts $de/transform01/typescript.txt
 
 cp $so/t01/t01.component.html $de/t01/
 mv $de/t01/t01.component.html $de/t01/html.txt
@@ -30,3 +37,8 @@ cp $so/t03/t03.component.html $de/t03/
 mv $de/t03/t03.component.html $de/t03/html.txt
 cp $so/t03/t03.component.ts $de/t03/
 mv $de/t03/t03.component.ts $de/t03/typescript.txt
+
+cp $so/t04/t04.component.html $de/t04/
+mv $de/t04/t04.component.html $de/t04/html.txt
+cp $so/t04/t04.component.ts $de/t04/
+mv $de/t04/t04.component.ts $de/t04/typescript.txt
