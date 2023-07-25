@@ -6,8 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./t01.component.scss']
 })
 export class T01Component {
-  title = 'angular-text-search-highlight';
-  searchText = '';
+  searchText: string = '';
   cities = [
     'Acton Vale',
     'Alma',
