@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild, ElementRef } from '@angular/core';
 
 @Component({
   selector: 'app-t02',
@@ -6,7 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./t02.component.scss']
 })
 export class T02Component {
-
+  @ViewChild('searchbar') searchbar = ElementRef;
+  searchText: string = '';
   userRecords = [
     {
       id: 1,
