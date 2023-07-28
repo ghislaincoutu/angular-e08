@@ -48,7 +48,7 @@ export class T01Component {
     'Chibougamau',
     'Clermont',
     'Coaticook',
-    'Contrecœur',
+    'Contrecoeur',
     'Cookshire-Eaton',
     'Coteau-du-Lac',
     'Côte-Saint-Luc',
