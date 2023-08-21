@@ -1,4 +1,5 @@
 # angular-e08 &mdash; Programmation de divers composants et services Angular (E08)
+[README](../README.md)
 
 ## Démonstration
 https://ghislaincoutu.ca/r002/angular-e08
