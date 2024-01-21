@@ -2,7 +2,7 @@
 [README](../README.md) &mdash; Angular
 
 ## Démonstration
-https://ghislaincoutu.ca/r002/angular-e08
+https://ghislaincoutu.ca/d002/angular-e08
 
 ## Paquets NPM à installer
 ```sh
