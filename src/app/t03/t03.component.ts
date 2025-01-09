@@ -1,9 +1,10 @@
 import { Component, ViewChild, ElementRef } from '@angular/core';
 
 @Component({
-  selector: 'app-t03',
-  templateUrl: './t03.component.html',
-  styleUrls: ['./t03.component.scss']
+    selector: 'app-t03',
+    templateUrl: './t03.component.html',
+    styleUrls: ['./t03.component.scss'],
+    standalone: false
 })
 
 export class T03Component {

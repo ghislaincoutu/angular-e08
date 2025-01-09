@@ -2,9 +2,10 @@ import { Component } from '@angular/core';
 import { Observable } from 'rxjs';
 
 @Component({
-  selector: 'app-t04',
-  templateUrl: './t04.component.html',
-  styleUrls: ['./t04.component.scss']
+    selector: 'app-t04',
+    templateUrl: './t04.component.html',
+    styleUrls: ['./t04.component.scss'],
+    standalone: false
 })
 export class T04Component {
   courseTitle01: any = "";

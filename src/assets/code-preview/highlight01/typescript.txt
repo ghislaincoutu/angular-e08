@@ -2,7 +2,8 @@ import { Directive } from '@angular/core';
 import { Input, SimpleChanges, Renderer2, ElementRef, OnChanges } from '@angular/core';
 
 @Directive({
-  selector: '[appHighlight01]'
+    selector: '[appHighlight01]',
+    standalone: false
 })
 export class Highlight01Directive implements OnChanges {
   @Input() searchedWord!: string;

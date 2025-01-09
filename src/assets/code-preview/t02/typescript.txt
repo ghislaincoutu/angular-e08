@@ -1,9 +1,10 @@
 import { Component, ViewChild, ElementRef } from '@angular/core';
 
 @Component({
-  selector: 'app-t02',
-  templateUrl: './t02.component.html',
-  styleUrls: ['./t02.component.scss']
+    selector: 'app-t02',
+    templateUrl: './t02.component.html',
+    styleUrls: ['./t02.component.scss'],
+    standalone: false
 })
 export class T02Component {
   @ViewChild('searchbar') searchbar = ElementRef;
