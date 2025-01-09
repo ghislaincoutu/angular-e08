@@ -39,3 +39,38 @@ Pour que les fichiers Bootstrap soient pris en compte dans le projet, il faut aj
   }
 }
 ```
+
+## Ajout de paramètres dans le fichier angular.json
+Dans le fichier **angular.json** il faut ajouter le paramètre _optimization_ et augmenter les valeurs dans le paramètre _budgets_.
+```json
+"configurations": {
+  "production": {
+    "optimization": {
+      "scripts": true,
+      "styles": {
+        "minify": true,
+        "inlineCritical": false
+      },
+      "fonts": true
+    },
+    "budgets": [
+      {
+        "type": "initial",
+        "maximumWarning": "800kB",
+        "maximumError": "1.2MB"
+      },
+      {
+        "type": "anyComponentStyle",
+        "maximumWarning": "4kB",
+        "maximumError": "8kB"
+      }
+    ],
+    "outputHashing": "all"
+  },
+  "development": {
+    "optimization": false,
+    "extractLicenses": false,
+    "sourceMap": true
+  }
+},
+```
