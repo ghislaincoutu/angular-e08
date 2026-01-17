@@ -1,5 +1,5 @@
 <div class="container mt-4 t01">
-  <h1>Angular 20</h1>
+  <h1>Angular 21</h1>
   <h2>T03 Programmation d’un filtre de recherche</h2>
   <div class="row">
     <div class="col-md-6">
@@ -10,9 +10,11 @@
         <input type="text" class="form-control" placeholder="Saisir le nom d’un président américain" [(ngModel)]="searchText" #searchbar>
       </div>
       <ul class="list-group">
-        <li class="list-group-item" *ngFor="let x of listData | transform03: searchText">
-          {{x.president}} &mdash; {{x.party}}
-        </li>
+        @for (x of listData | transform03: searchText; track x) {
+          <li class="list-group-item">
+            {{x.president}} &mdash; {{x.party}}
+          </li>
+        }
       </ul>
     </div>
     <div class="col-md-6 code-preview">
