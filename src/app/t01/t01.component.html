@@ -1,5 +1,5 @@
 <div class="container mt-4 t01">
-  <h1>Angular 20</h1>
+  <h1>Angular 21</h1>
   <h2>T01 Programmation d’un filtre de recherche</h2>
   <div class="note01">
     <p>Paquet NPM à installer :</p>
@@ -13,9 +13,11 @@
         <input type="text" class="form-control" id="search-text" aria-describedby="search-text" [(ngModel)]="searchText" placeholder="Saisir le nom d’une ville du Québec" autofocus>
       </div>
       <ul class="list-group">
-        <li class="list-group-item" *ngFor="let x of cities | transform01: searchText" appHighlight01 [searchedWord]="searchText" [content]="x" [classToApply]="'highlight08'" [setTitle]="'true'">
-          {{x}}
-        </li>
+        @for (x of cities | transform01: searchText; track x) {
+          <li class="list-group-item" appHighlight01 [searchedWord]="searchText" [content]="x" [classToApply]="'highlight08'" [setTitle]="'true'">
+            {{x}}
+          </li>
+        }
       </ul>
     </div>
     <div class="col-md-6 code-preview">
