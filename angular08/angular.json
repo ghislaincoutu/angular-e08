@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "angular-e08": {
+    "angular08": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -18,7 +18,7 @@
           "builder": "@angular/build:application",
           "options": {
             "outputPath": {
-              "base": "dist/angular-e08"
+              "base": "dist/angular08"
             },
             "index": "src/index.html",
             "polyfills": [
@@ -82,10 +82,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "angular-e08:build:production"
+              "buildTarget": "angular08:build:production"
             },
             "development": {
-              "buildTarget": "angular-e08:build:development"
+              "buildTarget": "angular08:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -93,7 +93,7 @@
         "extract-i18n": {
           "builder": "@angular/build:extract-i18n",
           "options": {
-            "buildTarget": "angular-e08:build"
+            "buildTarget": "angular08:build"
           }
         },
         "test": {

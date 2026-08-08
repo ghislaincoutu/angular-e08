@@ -8,7 +8,7 @@ echo "Publication de l'applications sur le serveur Web local"
 apply_pause "Appuyer sur la touche [Retour] pour continuer..."
 
 # Source (so)
-so=/home/XD01/angular-e08/dist/angular-e08/browser
+so=/home/XD01/angular-e08/angular08/dist/angular08/browser
 # Destination (de)
 de=/var/www/html/d002/angular-e08
 
